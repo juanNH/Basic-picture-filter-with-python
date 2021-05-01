@@ -12,7 +12,7 @@ gaussian_kernel2= cv2.getGaussianKernel(5,0)
 box_kernel = np.array([[1,1,1],[1,1,1],[1,1,1]],np.float32)/9.0
 kernels = [identificador, sharpen,gaussian_kernel1,gaussian_kernel2,box_kernel]
 # lee la imagen y crea una copia en gris
-color_or=cv2.imread("test.jpeg") 
+color_or=cv2.imread("test.png") 
 gris_or=cv2.cvtColor(color_or,cv2.COLOR_BGR2GRAY)
 #crea la interfaz 
 # crea la ventana

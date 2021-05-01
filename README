@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+A-Pressing the letter "Q" while the program is running will close it. 
+B-Pressing the letter "S" while you are editting the picture will save it. 
+Attention! If you do item B- and there is a existing picture edited, the program will overwrite it
